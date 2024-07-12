@@ -1,18 +1,22 @@
-Login Aplikasi Delimart
+Cara Penggunaan Aplikasi Delimart
 
-File Restfull Api Golang : Delimart_Api
+Terdapat 3 role yang terdapat di aplikasi delimart dengan setiap role nya memiliki aplikasi dengan platform yang berbeda-beda
 
-Nama Folder : Delimart_Flutter
-- Login Android : 
+1. Admin : Web
+  untuk mencoba demo aplikasi delimart anda bisa menggunjungi website berikut : https://delimart.praktikum-cpanel-unbin.com
+  dengan memasukan username dan password berikut untuk melakukan login
+- Username : kt
+- password : kepalatoko
+  
+2. Kasir : Desktop
+  untuk mencoba demo aplikasi delimart untuk bagian kasir anda bisa mencoba dengan menjalankan file .exe
+  dengan memasukan username dan password berikut untuk melakukan login
+- Username : ksr1
+- password : kasir1
+  
+3. Kepala Toko : Mobile
+  untuk mencoba demo aplikasi delimart untuk bagian kepala toko anda bisa mencoba nya dengan meng-install apk nya
+  dengan memasukan username dan password berikut untuk melakukan login
 - Username : kt
 - password : kepalatoko
 
-Nama Folder : web_ipat_delimart
-- Login Web : 
-- Username : Admin
-- password : 12345678
-
-Nama Folder : Delimart_vb
-- Login Desktop : 
-- Username : ksr1
-- password : kasir1
