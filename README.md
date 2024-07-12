@@ -1,6 +1,6 @@
 Login Aplikasi Delimart
 
-File Golang : Delimart_New
+File Restfull Api Golang : Delimart_Api
 
 Nama File : flutter_application_1 
 - Login Android : 
