@@ -1,5 +1,5 @@
 # Aplikasi Delimart
-**Created by**: [@awaludinmil](https://github.com/awaludinmil)
+
 
 
 
