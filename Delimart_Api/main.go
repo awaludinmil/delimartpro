@@ -31,8 +31,11 @@ func main() {
 	// Replace with your database credentials
 	// dsn := "root:@tcp(127.0.0.1:3306)/db_ipat_uas_final"
 	// dsn := "delimart:8W@jQeSYDTPwpa!@tcp(mysql-delimart.alwaysdata.net:3306)/delimart_db_ipat_uas"
-	dsn := "praktikum_delimart:delimart123@tcp(localhost:3306)/praktikum_delimart_ipat"
 	// dsn := "praktikum_delimart:delimart123@unix(/var/lib/mysql/mysql.sock)/praktikum_delimart_ipat?charset=utf8"
+
+	//koneksi ke cpanel
+	dsn := "praktikum_delimart:delimart123@tcp(localhost:3306)/praktikum_delimart_ipat"
+	
 	db, err = sql.Open("mysql", dsn)
 	if err != nil {
 		log.Fatalf("Failed to open database: %v", err)
