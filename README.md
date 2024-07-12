@@ -1,22 +1,28 @@
-Cara Penggunaan Aplikasi Delimart
+# Cara Penggunaan Aplikasi Delimart
 
-Terdapat 3 role yang terdapat di aplikasi delimart dengan setiap role nya memiliki aplikasi dengan platform yang berbeda-beda
+Aplikasi Delimart memiliki tiga role yang berbeda, masing-masing dengan platform aplikasi yang berbeda pula:
 
-1. Admin : Web <br>
-  untuk mencoba demo aplikasi delimart anda bisa menggunjungi website berikut : https://delimart.praktikum-cpanel-unbin.com
-  dengan memasukan username dan password berikut untuk melakukan login
-- Username : kt
-- password : kepalatoko
-  
-2. Kasir : Desktop <br>
-  untuk mencoba demo aplikasi delimart untuk bagian kasir anda bisa mencoba dengan menjalankan file .exe
-  dengan memasukan username dan password berikut untuk melakukan login
-- Username : ksr1
-- password : kasir1
-  
-3. Kepala Toko : Mobile <br>
-  untuk mencoba demo aplikasi delimart untuk bagian kepala toko anda bisa mencoba nya dengan meng-install apk nya
-  dengan memasukan username dan password berikut untuk melakukan login
-- Username : kt
-- password : kepalatoko
+## 1. Admin : Web
 
+Untuk mencoba demo aplikasi Delimart sebagai Admin, Anda dapat mengunjungi situs web berikut: 
+[Demo Aplikasi Delimart](https://delimart.praktikum-cpanel-unbin.com).
+
+Gunakan informasi login berikut untuk masuk:
+- **Username**: kt
+- **Password**: kepalatoko
+
+## 2. Kasir : Desktop
+
+Untuk mencoba demo aplikasi Delimart untuk bagian Kasir, Anda dapat menjalankan file .exe yang disediakan.
+
+Gunakan informasi login berikut untuk masuk:
+- **Username**: ksr1
+- **Password**: kasir1
+
+## 3. Kepala Toko : Mobile
+
+Untuk mencoba demo aplikasi Delimart untuk Kepala Toko, Anda dapat meng-install file apk yang disediakan.
+
+Gunakan informasi login berikut untuk masuk:
+- **Username**: kt
+- **Password**: kepalatoko
