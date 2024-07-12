@@ -27,7 +27,7 @@ Gunakan informasi login berikut untuk masuk:
 
 Untuk mencoba demo aplikasi Delimart untuk Kepala Toko, Anda dapat mengunduh dan meng-install file APK yang disediakan. Klik tautan di bawah ini untuk mengunduh APK Delimart:
 
-[**Download APK Delimart**](https://github.com/awaludinmil/delimartpro/raw/main/Delimart_Flutter/delimart_apk/Delimart.apk)
+[**Download APK Delimart Mobile**](https://github.com/awaludinmil/delimartpro/raw/main/Delimart_Flutter/delimart_apk/Delimart.apk)
 
 Gunakan informasi login berikut untuk masuk:
 - **Username**: kt
