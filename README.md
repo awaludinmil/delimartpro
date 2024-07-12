@@ -13,7 +13,7 @@ Gunakan informasi login berikut untuk masuk:
 
 ## 2. Kasir : Desktop
 
-Untuk mencoba demo aplikasi Delimart untuk bagian Kasir, Anda dapat menjalankan file .exe yang disediakan.
+Untuk mencoba demo aplikasi Delimart untuk bagian Kasir, Anda dapat menjalankan file .exe yang berada di **Delimart_Vb/Ipat_Uas/bin/Debug/Delimart.exe**
 
 Gunakan informasi login berikut untuk masuk:
 - **Username**: ksr1
