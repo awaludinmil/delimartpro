@@ -1,0 +1,25 @@
+name: Create ZIP of Desktop Folder
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  create-zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Zip Desktop Folder
+        run: |
+          zip -r delimart_desktop.zip Delimart_Vb/
+
+      - name: Upload ZIP as Release Asset
+        uses: actions/upload-artifact@v3
+        with:
+          name: delimart_desktop
+          path: delimart_desktop.zip
