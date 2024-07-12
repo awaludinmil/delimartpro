@@ -5,7 +5,7 @@ Aplikasi Delimart memiliki tiga role yang berbeda, masing-masing dengan platform
 ## 1. Admin : Web
 
 Untuk mencoba demo aplikasi Delimart sebagai Admin, Anda dapat mengunjungi situs web berikut: 
-[Demo Aplikasi Delimart](https://delimart.praktikum-cpanel-unbin.com).
+[**Demo Aplikasi Delimart**](https://delimart.praktikum-cpanel-unbin.com).
 
 Gunakan informasi login berikut untuk masuk:
 - **Username**: Admin
@@ -21,7 +21,9 @@ Gunakan informasi login berikut untuk masuk:
 
 ## 3. Kepala Toko : Mobile
 
-Untuk mencoba demo aplikasi Delimart untuk Kepala Toko, Anda dapat meng-install file apk yang disediakan.
+Untuk mencoba demo aplikasi Delimart untuk Kepala Toko, Anda dapat mengunduh dan meng-install file APK yang disediakan. Klik tautan di bawah ini untuk mengunduh APK:
+
+[**Download APK Delimart**](#)
 
 Gunakan informasi login berikut untuk masuk:
 - **Username**: kt
