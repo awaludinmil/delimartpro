@@ -21,7 +21,7 @@ Gunakan informasi login berikut untuk masuk:
 
 ## 3. Kepala Toko : Mobile
 
-Untuk mencoba demo aplikasi Delimart untuk Kepala Toko, Anda dapat mengunduh dan meng-install file APK yang disediakan. Klik tautan di bawah ini untuk mengunduh APK:
+Untuk mencoba demo aplikasi Delimart untuk Kepala Toko, Anda dapat mengunduh dan meng-install file APK yang disediakan. Klik tautan di bawah ini untuk mengunduh APK Delimart:
 
 [**Download APK Delimart**](#)
 
