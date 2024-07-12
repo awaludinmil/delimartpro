@@ -8,8 +8,8 @@ Untuk mencoba demo aplikasi Delimart sebagai Admin, Anda dapat mengunjungi situs
 [Demo Aplikasi Delimart](https://delimart.praktikum-cpanel-unbin.com).
 
 Gunakan informasi login berikut untuk masuk:
-- **Username**: kt
-- **Password**: kepalatoko
+- **Username**: Admin
+- **Password**: 12345678
 
 ## 2. Kasir : Desktop
 
