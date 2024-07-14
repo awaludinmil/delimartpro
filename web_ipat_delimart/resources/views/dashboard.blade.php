@@ -72,7 +72,7 @@
             <div class="col mr-2">
               <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
                 Pegawai yang Terdaftar</div>
-              <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $dashboard[0]['total_barang'] ?? 'N/A' }}</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $dashboard[0]['total_pegawai'] ?? 'N/A' }}</div>
             </div>
             <div class="col-auto">
               <i class="fas fa-users fa-2x text-gray-300"></i>
