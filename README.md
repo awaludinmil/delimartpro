@@ -1,7 +1,7 @@
 
 # Cara Penggunaan Aplikasi Delimart
 
-Aplikasi Delimart memiliki tiga role yang berbeda. Semua role terhubung melalui API yang dibangun menggunakan Golang untuk memastikan integrasi yang lancar dan responsif antara aplikasi web, desktop, dan mobile.
+Aplikasi Delimart memiliki tiga role yang berbeda. Semua role terhubung melalui API yang dibangun untuk memastikan integrasi yang lancar dan responsif antara aplikasi web, desktop, dan mobile.
 
 ## 1. Admin : Web
 
