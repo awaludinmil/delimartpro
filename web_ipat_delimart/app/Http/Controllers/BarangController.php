@@ -1,5 +1,5 @@
 
-text/x-generic BarangController.php ( PHP script, ASCII text )
+
 <?php
 
 namespace App\Http\Controllers;
