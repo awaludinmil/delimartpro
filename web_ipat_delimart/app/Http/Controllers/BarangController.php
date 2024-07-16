@@ -1,3 +1,5 @@
+
+text/x-generic BarangController.php ( PHP script, ASCII text )
 <?php
 
 namespace App\Http\Controllers;
@@ -46,7 +48,7 @@ class BarangController extends Controller
             'kd_kategori' => 'required',
             'harga_beli' => 'required|numeric',
             'harga_jual' => 'required|numeric',
-            'diskon' => 'required|numeric',
+            'diskon' => 'required|numeric|max:90',
             'stok' => 'required|numeric',
         ], [
             'kd_barang.required' => 'Kode Barang harus diisi.',
@@ -59,6 +61,7 @@ class BarangController extends Controller
             'harga_jual.numeric' => 'Harga Jual harus berupa angka.',
             'diskon.required' => 'Diskon harus diisi.',
             'diskon.numeric' => 'Diskon harus berupa angka.',
+            'diskon.max' => 'Diskon tidak boleh lebih dari 90.',
             'stok.required' => 'Stok Barang harus diisi.',
             'stok.numeric' => 'Stok Barang harus berupa angka.',
         ]);
@@ -96,7 +99,7 @@ class BarangController extends Controller
             'kd_kategori' => 'required',
             'harga_beli' => 'required|numeric',
             'harga_jual' => 'required|numeric',
-            'diskon' => 'required|numeric',
+            'diskon' => 'required|numeric|max:90',
             'stok' => 'required|numeric',
         ], [
             'kd_supplier.required' => 'Supplier harus dipilih.',
@@ -108,6 +111,7 @@ class BarangController extends Controller
             'harga_jual.numeric' => 'Harga Jual harus berupa angka.',
             'diskon.required' => 'Diskon harus diisi.',
             'diskon.numeric' => 'Diskon harus berupa angka.',
+            'diskon.max' => 'Diskon tidak boleh lebih dari 90.',
             'stok.required' => 'Stok Barang harus diisi.',
             'stok.numeric' => 'Stok Barang harus berupa angka.',
         ]);
