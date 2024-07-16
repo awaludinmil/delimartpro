@@ -1,4 +1,4 @@
-﻿Imports System.IO
+Imports System.IO
 Imports System.Net
 Imports System.Text
 Imports Newtonsoft.Json.Linq
@@ -104,8 +104,24 @@ Public Class Form_Dialog_Transaksi
                         MsgBox("Gagal mengubah data. Status code: " & response.StatusCode.ToString(), MsgBoxStyle.Exclamation, "Error")
                     End If
                 End Using
+            Catch ex As WebException
+                If ex.Response IsNot Nothing Then
+                    Using errorResponse As HttpWebResponse = CType(ex.Response, HttpWebResponse)
+                        Using reader As New StreamReader(errorResponse.GetResponseStream())
+                            Dim errorText As String = reader.ReadToEnd()
+                            Dim errorJson As JObject = JObject.Parse(errorText)
+                            If errorJson("error") IsNot Nothing Then
+                                MsgBox("Error: " & errorJson("error").ToString(), MsgBoxStyle.Critical, "Error")
+                            Else
+                                MsgBox("Unknown Error", MsgBoxStyle.Critical, "Error")
+                            End If
+                        End Using
+                    End Using
+                Else
+                    MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, "Error")
+                End If
             Catch ex As Exception
-                MsgBox("Error Update Data: " & ex.Message, MsgBoxStyle.Critical, "Error")
+                MsgBox("Error: " & ex.Message, MsgBoxStyle.Critical, "Error")
             End Try
         End If
     End Sub
