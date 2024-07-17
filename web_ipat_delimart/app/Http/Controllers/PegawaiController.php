@@ -37,7 +37,6 @@ class PegawaiController extends Controller
     public function simpan(Request $request)
     {
         $request->validate([
-            'kd_pegawai' => 'required',
             'nama_pegawai' => 'required',
             'tanggal_lahir' => 'required|date',
             'jenis_kelamin' => 'required',
@@ -45,7 +44,6 @@ class PegawaiController extends Controller
             'telepon' => 'required',
             'kd_role' => 'required',
         ], [
-            'kd_pegawai.required' => 'Kode Pegawai harus diisi.',
             'nama_pegawai.required' => 'Nama Pegawai harus diisi.',
             'tanggal_lahir.required' => 'Tanggal Lahir harus diisi.',
             'tanggal_lahir.date' => 'Tanggal Lahir harus berupa tanggal yang valid.',
@@ -55,7 +53,6 @@ class PegawaiController extends Controller
             'kd_role.required' => 'Role harus dipilih.',
         ]);
         $data = [
-            'kd_pegawai' => $request->kd_pegawai,
             'nama_pegawai' => $request->nama_pegawai,
             'tanggal_lahir' => $request->tanggal_lahir,
             'jenis_kelamin' => $request->jenis_kelamin,
